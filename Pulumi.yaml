@@ -1,0 +1,10 @@
+name: pulumi-azure-ai
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: we need to deploy an azure AKS cluster including resource group, azure kubernetes cluster, deployed in west us 2 based on a pulumi config variable, our aks cluster will be a linux cluster, include a pulumi provider kubeconfig resource to pass around,
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/2bb1f12b-2765-4d91-98f7-f498bd7a440e.zip

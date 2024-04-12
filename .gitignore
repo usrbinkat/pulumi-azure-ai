@@ -1,12 +1,5 @@
-local
-.kube
-.talos
-.kube
-.talos
+
+*.pyc
+venv/
+__pycache__/
 .pulumi
-.kube
-.pulumi
-.talos
-.pulumi/*
-.kube/*
-frontmatter.json

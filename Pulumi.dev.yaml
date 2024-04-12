@@ -1,0 +1,2 @@
+config:
+  pulumi-azure-ai:resourceGroupName: code2cloud
